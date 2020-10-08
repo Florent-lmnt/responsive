@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "danger";
+    src: url("../font/danger.woff2") format("woff2");
+}
+
+.h1{
+    font-family: "danger", serif;
+}
