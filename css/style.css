@@ -3,6 +3,46 @@
     src: url("../font/danger.woff2") format("woff2");
 }
 
-.h1{
-    font-family: "danger", serif;
+@font-face {
+    font-family: "gun";
+    src: url("../font/gunplay.woff2") format("woff2");
+}
+
+.inner{
+    margin: 0 auto;
+    width: 970px;
+}
+
+h1{
+    font-family: "danger", sans-serif;
+    text-align: center;
+}
+
+p{
+    font-family: "gun", sans-serif;
+    text-align: center;
+}
+
+img{
+    width: 100%;
+}
+
+.photo{
+    width: 50%;
+}
+
+.p1{
+    display: inline-block;
+    width: 49%;
+}
+
+.txt1{
+    display: inline-block;
+    width: 49%;
+}
+
+.p2{
+    display: inline-block;
+    width: 33%;
+    padding-left: 10px;
 }
